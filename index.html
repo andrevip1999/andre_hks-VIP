@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>André HKS — Formação em Cibersegurança</title>
+  <meta name="description" content="Formação completa e prática em cibersegurança: do zero ao avançado, ética e defesa. Aulas diretas, comunidade e atualizações. Preço acessível." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial; }
+    .brand-red { --tw-bg-opacity:1; background-color: rgba(239,68,68,var(--tw-bg-opacity)); }
+    .brand-blue { background: #0B1220; } /* azul escuro profundo */
+    .hero-gradient { background: radial-gradient(1200px 600px at 20% 10%, rgba(239,68,68,.25), transparent 60%),
+                                 radial-gradient(900px 500px at 80% 30%, rgba(37,99,235,.25), transparent 60%),
+                                 linear-gradient(180deg, #0B1220 0%, #05070C 100%); }
+    .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); }
+    .headline { font-family: Oswald, Poppins, sans-serif; letter-spacing: .5px; }
+    .shadow-soft { box-shadow: 0 10px 35px rgba(0,0,0,.35); }
+    .ring-red { box-shadow: 0 0 0 3px rgba(239,68,68,.15); }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100">
+  <!-- Barra topo -->
+  <header class="sticky top-0 z-50 brand-blue/80 bg-opacity-80 backdrop-filter backdrop-blur border-b border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-xl bg-red-600 grid place-items-center font-extrabold text-white">A</div>
+      <span class="font-bold tracking-tight">André HKS</span>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#curso" class="hover:text-red-400">Conteúdo</a>
+      <a href="#dentro-do-curso" class="hover:text-red-400">O que tem</a>
+      <a href="#beneficios" class="hover:text-red-400">Benefícios</a>
+      <a href="#fornecedores" class="hover:text-red-400">Fornecedores</a>
+      <a href="#preco" class="hover:text-red-400">Preço</a>
+      <a href="#faq" class="hover:text-red-400">FAQ</a>
+    </nav>
+    <a class="cta inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold transition ring-red" href="#">
+      Quero entrar
+    </a>
+  </div>
+</header>
+
+  <!-- Hero -->
+  <section class="relative">
+  <div class="absolute inset-0 -z-10 hero-gradient"></div>
+  <div class="max-w-7xl mx-auto px-6 min-h-screen flex items-center">
+    <div class="w-full text-center">
+      <h1 class="headline text-5xl md:text-7xl font-extrabold leading-tight">
+        Aprenda <span class="text-red-500">Hacking Ético</span> de forma
+        <span class="text-white">simples e segura</span>
+      </h1>
+      <p class="mt-5 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+        Curso completo por <span class="font-bold text-white">R$10</span> com acesso vitalício, prática responsável, laboratórios seguros e comunidade ativa.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-3">
+        <a class="cta px-8 py-4 rounded-2xl bg-red-600 hover:bg-red-700 font-semibold shadow-soft text-lg" href="#">Quero entrar agora</a>
+        <a href="#conteudo-detalhado" class="px-8 py-4 rounded-2xl border border-gray-700 hover:border-gray-500 text-lg">Ver conteúdo</a>
+      </div>
+
+      <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
+        <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-gray-200">✅ Aulas passo a passo</div>
+        <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-gray-200">✅ PDFs e templates</div>
+        <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-gray-200">✅ Comunidade ativa</div>
+        <div class="rounded-xl border border-gray-800 bg-gray-900 p-4 text-gray-200">✅ Lab seguro & checklist</div>
+      </div>
+
+      <div class="mt-6 text-sm text-gray-400">Ética e defesa em primeiro lugar • Garantia de 7 dias</div>
+    </div>
+  </div>
+</section>
+
+  <!-- Destaque: O que tem dentro do curso (resumo visual) -->
+  <section id="dentro-do-curso" class="py-16 bg-gray-900/60 border-t border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-center">Dentro do curso</h2>
+      <p class="text-center text-gray-300 mt-3">Resumo de tópicos — sempre com foco em <span class="font-semibold text-gray-100">ética e proteção</span>.</p>
+      <ul class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-3 text-sm text-gray-200">
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Navegação segura (deep web) & boas práticas</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Termux & automação ética em Android</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Segurança em WhatsApp & engenharia social (prevenção)</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Análise de malware em laboratório isolado</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Flipper Zero & RF: fundamentos, legislação & defesa</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Jammers: teoria, riscos legais e contramedidas</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ OSINT e gestão de senhas/vazamentos</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Bots de coleta de dados com consentimento & compliance</li>
+        <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Projetos práticos guiados e relatórios</li>
+      </ul>
+      <div class="text-center mt-8">
+        <a class="cta inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-red-600 hover:bg-red-700 font-semibold" href="#">Garantir acesso</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdo do curso -->
+  <section class="py-24 brand-blue border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="rounded-3xl p-10 md:p-14 shadow-soft border border-gray-800"
+           style="background: radial-gradient(900px 380px at 10% 20%, rgba(239,68,68,.18), transparent 60%),
+                            radial-gradient(700px 320px at 90% 30%, rgba(37,99,235,.18), transparent 60%),
+                            linear-gradient(135deg,#0B1220 0%, #0A0F1E 40%, #06090F 100%);">
+        <div class="grid lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7">
+            <h2 class="headline text-4xl md:text-5xl font-extrabold leading-tight">🔥 Entre para o <span class="text-red-500">André VIP</span> e evolua com clareza</h2>
+            <p class="mt-4 text-lg text-gray-300 max-w-2xl">Acesso vitalício por <span class="font-bold text-white">R$10</span>. Aprenda do zero ao avançado com prática responsável, suporte na comunidade e atualizações contínuas.</p>
+            <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm text-gray-200">
+              <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Passo a passo direto e sem enrolação</li>
+              <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Laboratório seguro e checklist</li>
+              <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ PDFs, scripts, modelos e projetos</li>
+              <li class="rounded-xl border border-gray-800 bg-gray-900 p-3">✅ Comunidade ativa para dúvidas</li>
+            </ul>
+            <div class="mt-7 flex flex-wrap gap-3">
+              <a class="cta px-8 py-3 rounded-xl bg-red-600 hover:bg-red-700 font-semibold shadow-soft" href="#">Quero fazer parte</a>
+              <a href="#preco" class="px-8 py-3 rounded-xl border border-gray-700 hover:border-gray-500">Ver oferta</a>
+            </div>
+            <div class="mt-3 text-xs text-gray-400">Garantia de 7 dias • Conteúdo focado em ética e defesa</div>
+          </div>
+          <div class="lg:col-span-5">
+            <div class="grid grid-cols-3 gap-3">
+              <div class="rounded-2xl bg-gray-900 border border-gray-800 p-5 text-center">
+                <div class="text-3xl font-extrabold">R$10</div>
+                <div class="text-xs text-gray-400">Acesso vitalício</div>
+              </div>
+              <div class="rounded-2xl bg-gray-900 border border-gray-800 p-5 text-center">
+                <div class="text-3xl font-extrabold">453+</div>
+                <div class="text-xs text-gray-400">Membros</div>
+              </div>
+              <div class="rounded-2xl bg-gray-900 border border-gray-800 p-5 text-center">
+                <div class="text-3xl font-extrabold">24/7</div>
+                <div class="text-xs text-gray-400">Comunidade</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="curso" class="py-20 bg-gray-900/40 border-t border-b border-gray-800">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="headline text-4xl font-extrabold text-center">Trilha de aprendizado</h2>
+    <p class="text-center text-gray-400 mt-3">Do zero ao avançado, com prática guiada</p>
+    <div id="conteudo-detalhado" class="mt-12 grid lg:grid-cols-4 gap-6">
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">1. Fundamentos</h3>
+        <ul class="mt-3 space-y-2 text-gray-300 text-sm list-disc list-inside">
+          <li>Redes, protocolos, Linux básico</li>
+          <li>Ambiente seguro de testes</li>
+          <li>Metodologia ética</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">2. Ferramentas</h3>
+        <ul class="mt-3 space-y-2 text-gray-300 text-sm list-disc list-inside">
+          <li>Wi‑Fi, sniffing e análise</li>
+          <li>Flipper, RF & boas práticas*</li>
+          <li>Automação com scripts</li>
+        </ul>
+        <p class="text-xs text-gray-500 mt-3">*Sempre em ambiente autorizado.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">3. Defesa</h3>
+        <ul class="mt-3 space-y-2 text-gray-300 text-sm list-disc list-inside">
+          <li>Hardening e monitoramento</li>
+          <li>OSINT, vazamentos e senhas</li>
+          <li>Resposta a incidentes</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">4. Projetos</h3>
+        <ul class="mt-3 space-y-2 text-gray-300 text-sm list-disc list-inside">
+          <li>Lab doméstico completo</li>
+          <li>Relatórios profissionais</li>
+          <li>Projeto final guiado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-10 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h4 class="font-semibold">Bônus</h4>
+        <ul class="text-sm text-gray-300 mt-2 space-y-2 list-disc list-inside">
+          <li>PDFs e cheatsheets atualizados</li>
+          <li>Templates de relatório</li>
+          <li>Atualizações contínuas</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h4 class="font-semibold">Para quem é</h4>
+        <ul class="text-sm text-gray-300 mt-2 space-y-2 list-disc list-inside">
+          <li>Iniciantes com foco em defesa</li>
+          <li>Profissionais migrando de área</li>
+          <li>Criadores que querem segurança</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h4 class="font-semibold">Como você aprende</h4>
+        <ul class="text-sm text-gray-300 mt-2 space-y-2 list-disc list-inside">
+          <li>Vídeos curtos e objetivos</li>
+          <li>Exercícios e desafios</li>
+          <li>Comunidade para dúvidas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Benefícios/Provas sociais -->
+  <section id="beneficios" class="py-20 brand-blue border-b border-gray-800">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="headline text-4xl font-extrabold text-center">Benefícios que aceleram seu resultado</h2>
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="font-semibold">Aprendizado acelerado</h3>
+        <p class="text-gray-300 text-sm mt-2">Conteúdo direto, prática guiada e sequência pensada para ir do zero ao uso real com segurança.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="font-semibold">Comunidade & Suporte</h3>
+        <p class="text-gray-300 text-sm mt-2">Grupo para dúvidas, feedback e novidades. Você não estuda sozinho.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="font-semibold">Portfólio prático</h3>
+        <p class="text-gray-300 text-sm mt-2">Construa projetos e relatórios que mostram suas habilidades.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Chamada de preço/CTA -->
+  <section id="fornecedores" class="py-20 bg-gray-900/40 border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="headline text-4xl font-extrabold text-center">Fornecedores de ferramentas</h2>
+    <p class="text-center text-gray-300 mt-2">Seleção de fontes oficiais/autoridades para compra segura. Verifique sempre a legislação local e use em ambientes autorizados.</p>
+
+    <div class="mt-10 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">Flipper Zero</h3>
+        <p class="text-sm text-gray-300 mt-2">Plataforma multiferramenta para pesquisa de protocolos e IoT. Ideal para laboratório e aprendizado de RF.</p>
+        <a class="mt-4 inline-flex px-5 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold vendor" data-vendor="flipper" href="#">Fornecedor oficial</a>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">HackRF One</h3>
+        <p class="text-sm text-gray-300 mt-2">Transceptor SDR 1–6 GHz para experimentos de rádio definidos por software.</p>
+        <a class="mt-4 inline-flex px-5 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold vendor" data-vendor="hackrf" href="#">Fornecedor oficial</a>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">RTL‑SDR Blog V3</h3>
+        <p class="text-sm text-gray-300 mt-2">Receiver SDR acessível para monitoramento e aprendizado de RF.</p>
+        <a class="mt-4 inline-flex px-5 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold vendor" data-vendor="rtlsdr" href="#">Fornecedor</a>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">Yard Stick One</h3>
+        <p class="text-sm text-gray-300 mt-2">Ferramenta Sub‑1 GHz para pesquisa e testes de protocolos simples.</p>
+        <a class="mt-4 inline-flex px-5 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold vendor" data-vendor="yardstick" href="#">Fornecedor</a>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">SDRplay RSP1A</h3>
+        <p class="text-sm text-gray-300 mt-2">Receiver SDR de alta qualidade para estudos de espectro.</p>
+        <a class="mt-4 inline-flex px-5 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold vendor" data-vendor="sdrplay" href="#">Fornecedor</a>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+        <h3 class="text-xl font-semibold">Alfa AWUS036ACH</h3>
+        <p class="text-sm text-gray-300 mt-2">Adaptador Wi‑Fi dual‑band para monitoramento e testes em lab.</p>
+        <a class="mt-4 inline-flex px-5 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold vendor" data-vendor="alfa" href="#">Fornecedor</a>
+      </div>
+    </div>
+
+    <div class="mt-6 text-xs text-gray-500 text-center">⚠️ Aviso: use somente em ambientes autorizados. No Brasil, verifique homologação/ANATEL para dispositivos de RF. <strong>Jammers</strong> e qualquer interferência deliberada em redes são proibidos.</div>
+  </div>
+</section>
+
+<section id="preco" class="py-20 bg-gray-900/40 border-t border-b border-gray-800">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="headline text-4xl font-extrabold">Entre hoje — preço acessível e garantia</h2>
+    <p class="text-gray-300 mt-3">Acesso imediato, conteúdo completo e risco zero por 7 dias.</p>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-8 md:col-span-2 text-left">
+        <h3 class="text-xl font-semibold mb-3">Você recebe</h3>
+        <ul class="text-gray-300 text-sm grid sm:grid-cols-2 gap-2 list-disc list-inside">
+          <li>Aulas práticas e diretas</li>
+          <li>Projetos e desafios</li>
+          <li>PDFs, scripts e modelos</li>
+          <li>Comunidade ativa</li>
+          <li>Atualizações sem custo</li>
+          <li>Garantia de 7 dias</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-gray-800 bg-gray-900 p-8 shadow-soft ring-red">
+        <div class="text-sm text-gray-400">Preço promocional</div>
+        <div class="text-5xl font-extrabold mt-2">R$ <span id="preco-atual">10</span></div>
+        <a class="cta mt-6 inline-flex px-8 py-3 rounded-xl bg-red-600 hover:bg-red-700 font-semibold" href="#">Comprar agora</a>
+        <div class="text-xs text-gray-500 mt-2">Pagamento seguro • Cartão e Pix</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Depoimentos -->
+  <section id="prova" class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-center">O que os alunos dizem</h2>
+      <div class="mt-12 grid md:grid-cols-3 gap-6">
+        <figure class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+          <blockquote class="text-gray-300 text-sm">“Gostei que é direto e prático. Em 2 semanas já montei meu lab e fiz meus primeiros testes com segurança.”</blockquote>
+          <figcaption class="text-xs text-gray-500 mt-3">— Lucas M.</figcaption>
+        </figure>
+        <figure class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+          <blockquote class="text-gray-300 text-sm">“A comunidade no Telegram ajuda demais. Sempre tem alguém pra responder e o André manda atualização.”</blockquote>
+          <figcaption class="text-xs text-gray-500 mt-3">— Carla S.</figcaption>
+        </figure>
+        <figure class="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+          <blockquote class="text-gray-300 text-sm">“Material bem organizado e focado em ética. Aprendi a me proteger e a reportar corretamente.”</blockquote>
+          <figcaption class="text-xs text-gray-500 mt-3">— Daniel R.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 bg-gray-900/40 border-t border-gray-800">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="headline text-4xl font-extrabold text-center">Perguntas frequentes</h2>
+    <div class="mt-10 space-y-3">
+      <details class="rounded-xl border border-gray-800 bg-gray-900 p-5 group">
+        <summary class="cursor-pointer font-semibold">Preciso ter conhecimento prévio?</summary>
+        <p class="mt-2 text-gray-300 text-sm">Não. Começamos do zero, mas com prática desde o início.</p>
+      </details>
+      <details class="rounded-xl border border-gray-800 bg-gray-900 p-5 group">
+        <summary class="cursor-pointer font-semibold">O curso é atualizado?</summary>
+        <p class="mt-2 text-gray-300 text-sm">Sim. Você recebe atualizações recorrentes sem custo adicional.</p>
+      </details>
+      <details class="rounded-xl border border-gray-800 bg-gray-900 p-5 group">
+        <summary class="cursor-pointer font-semibold">Tem suporte?</summary>
+        <p class="mt-2 text-gray-300 text-sm">Você terá acesso à comunidade para tirar dúvidas e compartilhar resultados.</p>
+      </details>
+      <details class="rounded-xl border border-gray-800 bg-gray-900 p-5 group">
+        <summary class="cursor-pointer font-semibold">Posso pedir reembolso?</summary>
+        <p class="mt-2 text-gray-300 text-sm">Sim. Dentro de 7 dias, caso não fique satisfeito.</p>
+      </details>
+    </div>
+    <div class="text-center mt-10">
+      <a class="cta inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-red-600 hover:bg-red-700 font-semibold" href="#">Quero garantir minha vaga</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Rodapé -->
+  <footer class="py-12 text-center text-sm text-gray-500">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p>© <span id="ano"></span> André HKS — Todos os direitos reservados</p>
+        <div class="flex items-center gap-3">
+          <a class="cta px-4 py-2 rounded-xl bg-red-600 hover:bg-red-700 font-semibold" href="#">Entrar no curso</a>
+          <a class="px-4 py-2 rounded-xl border border-gray-700 hover:border-gray-500" href="https://wa.me/55SEUNUMERO" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // === CONFIGURAR CHECKOUT AQUI ===
+const CHECKOUT_URL = "https://go.tribopay.com.br/unzkv"; // já configurado
+
+// Aponta todos os botões .cta para o checkout
+Array.from(document.querySelectorAll('a.cta')).forEach(a => a.setAttribute('href', CHECKOUT_URL));
+
+// === LINKS DE FORNECEDORES (edite aqui se quiser trocar) ===
+const VENDORS = {
+  flipper: "https://go.tribopay.com.br/unzkv",
+  hackrf: "https://go.tribopay.com.br/unzkv",
+  rtlsdr: "https://go.tribopay.com.br/unzkv",
+  yardstick: "https://go.tribopay.com.br/unzkv",
+  sdrplay: "https://go.tribopay.com.br/unzkv",
+  alfa: "https://go.tribopay.com.br/unzkv"
+};
+Array.from(document.querySelectorAll('a.vendor')).forEach(a => {
+  const key = a.getAttribute('data-vendor');
+  if (VENDORS[key]) {
+    a.href = VENDORS[key];
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+  }
+});
+
+// Ano do rodapé
+const anoEl = document.getElementById('ano'); if (anoEl) anoEl.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
